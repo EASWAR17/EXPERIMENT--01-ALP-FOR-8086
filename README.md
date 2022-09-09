@@ -59,30 +59,68 @@ MOV BH,0H;
 HLT;
 ```
 ## Addition  of 8 bit ALP 
-
-
+```
+name "ADDITION"
+org 100h
+MOV AH,05H;
+MOV BH,02H;
+ADD AH,BH;
+MOV CH,AH;
+MOV AH,0H; 
+MOV BH,0H;
+HLT;
+```
 
 ## Output  
- 
+ ![MC_ADD](https://user-images.githubusercontent.com/94154683/189397411-0b3efc02-33f3-465a-b22d-0b88b338a1ec.jpeg)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+```
+name "SUBTRACTION"
+org 700h
+MOV AH,7H;
+MOV BH,5H;
+SUB AH,BH;
+MOV CH,AH;
+MOV AH,0H;
+MOV BH,0h;
+HLT;
+```
+
 ## Output  
+![MC_SUB](https://user-images.githubusercontent.com/94154683/189397477-f7cd0fe4-ec14-4110-805e-1fbf1277cef2.jpeg)
+
 ## Multiplication alp 
- ## Output  
+```
+name "MULTIPLICATION"
+org 700h
+MOV AX,5H;
+MOV BX,4H;
+MUL BX;
+MOV CX,AX;
+MOV AX,0H;
+MOV BX,0h;
+HLT;
+```
+## Output  
+![MC_MULT](https://user-images.githubusercontent.com/94154683/189397611-6ff347a9-ac2c-4ac9-9253-d84c39ba95b0.jpeg)
 
 
 ## Division alp 
-
+```
+name "DIVISION"
+org 700h
+MOV AX,9H;
+MOV BX,3H;
+DIV BX;
+MOV CX,AX;
+MOV AX,0H;
+MOV BX,0h;
+HLT;
+```
 ## Output  
+![MC_DIV](https://user-images.githubusercontent.com/94154683/189397675-efee94c7-04d4-428f-8f1b-4a331e01ff2e.jpeg)
 
 
 ## Result :
- 
-
-
-
-
-
-
-
-
+Thus a program on ALP for the fundamental arithmetic and logical operations is done successful.
