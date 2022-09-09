@@ -23,7 +23,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
  
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
 
-2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
+2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color .
 
 3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 
