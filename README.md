@@ -62,7 +62,16 @@ HLT;
 ```
 
 ## Output  
- ![MC_ADD](https://user-images.githubusercontent.com/94154683/189397411-0b3efc02-33f3-465a-b22d-0b88b338a1ec.jpeg)
+### AH and BH registers for ADDITION
+![mc1](https://user-images.githubusercontent.com/94154683/189403970-96ba85d7-0179-48bc-91de-e1d4fa33d4f5.jpeg)
+### Performing 8 Bit ADDITION
+![mc2](https://user-images.githubusercontent.com/94154683/189403964-fdea6abc-95d5-4cd0-b56b-1ab0297f45c5.jpeg)
+### Moving to CH register
+![mc3](https://user-images.githubusercontent.com/94154683/189403952-c619ed22-a9aa-4e50-ba80-2e53ea29cd18.jpeg)
+### Resetting AH,BH register and Execution
+![mc4](https://user-images.githubusercontent.com/94154683/189404217-18be4c6e-4133-4d48-ba71-3a686c0e03a1.jpeg)
+Flags:
+![mcc](https://user-images.githubusercontent.com/94154683/189404757-b2c0bfed-23ec-4894-9c25-479445c9d934.jpeg)
 
 ## Subtraction   of 8 bit numbers  ALP 
 ```
@@ -78,7 +87,12 @@ HLT;
 ```
 
 ## Output  
-![MC_SUB](https://user-images.githubusercontent.com/94154683/189397477-f7cd0fe4-ec14-4110-805e-1fbf1277cef2.jpeg)
+![mc21](https://user-images.githubusercontent.com/94154683/189404321-ba33c32e-c1f1-4957-b428-8632d2011110.jpeg)
+![mc22](https://user-images.githubusercontent.com/94154683/189404348-a83d7059-677b-45a1-93c4-b3670212817c.jpeg)
+![mc23](https://user-images.githubusercontent.com/94154683/189404378-59916647-d716-41d4-bf06-f80dc549b8af.jpeg)
+![mc24](https://user-images.githubusercontent.com/94154683/189404416-4eec04b7-095d-44a0-af0c-08d0d09dea95.jpeg)
+![mcc](https://user-images.githubusercontent.com/94154683/189404757-b2c0bfed-23ec-4894-9c25-479445c9d934.jpeg)
+
 
 ## Multiplication alp 
 ```
@@ -93,7 +107,13 @@ MOV BX,0h;
 HLT;
 ```
 ## Output  
-![MC_MULT](https://user-images.githubusercontent.com/94154683/189397611-6ff347a9-ac2c-4ac9-9253-d84c39ba95b0.jpeg)
+
+![mc31](https://user-images.githubusercontent.com/94154683/189404593-82040e4d-d826-4537-9631-c3c18c0d0a65.jpeg)
+![mc32](https://user-images.githubusercontent.com/94154683/189404609-69996427-b408-4320-a122-157945cebfa1.jpeg)
+![mc33](https://user-images.githubusercontent.com/94154683/189404631-2577e6c0-a5ff-44ec-a2cd-4d0f24adc13f.jpeg)
+![mc34](https://user-images.githubusercontent.com/94154683/189404659-e5e8c1fc-9223-4084-808a-0e8b4f61c956.jpeg)
+![mcc](https://user-images.githubusercontent.com/94154683/189404757-b2c0bfed-23ec-4894-9c25-479445c9d934.jpeg)
+
 
 
 ## Division alp 
@@ -109,7 +129,13 @@ MOV BX,0h;
 HLT;
 ```
 ## Output  
-![MC_DIV](https://user-images.githubusercontent.com/94154683/189397675-efee94c7-04d4-428f-8f1b-4a331e01ff2e.jpeg)
+
+![mc41](https://user-images.githubusercontent.com/94154683/189405086-57e7e388-3b1c-4b08-9868-3d6533b19f5c.jpeg)
+![mc42](https://user-images.githubusercontent.com/94154683/189405115-fb26c155-fc90-4578-8733-56c3c6818a8d.jpeg)
+![mc43](https://user-images.githubusercontent.com/94154683/189405131-c25a35d2-a788-4c2b-b3f2-af681bab8883.jpeg)
+![mc44](https://user-images.githubusercontent.com/94154683/189405141-e296f15d-0e5c-4354-8bcd-987c033ab316.jpeg)
+![mcc](https://user-images.githubusercontent.com/94154683/189404757-b2c0bfed-23ec-4894-9c25-479445c9d934.jpeg)
+
 
 
 ## Result :
