@@ -70,7 +70,7 @@ HLT;
 ![mc3](https://user-images.githubusercontent.com/94154683/189403952-c619ed22-a9aa-4e50-ba80-2e53ea29cd18.jpeg)
 ### Resetting AH,BH register and Execution
 ![mc4](https://user-images.githubusercontent.com/94154683/189404217-18be4c6e-4133-4d48-ba71-3a686c0e03a1.jpeg)
-Flags:
+### Flags:
 ![mcc](https://user-images.githubusercontent.com/94154683/189404757-b2c0bfed-23ec-4894-9c25-479445c9d934.jpeg)
 
 ## Subtraction   of 8 bit numbers  ALP 
@@ -87,10 +87,15 @@ HLT;
 ```
 
 ## Output  
+### AH and BH registers for SUBTRACTION
 ![mc21](https://user-images.githubusercontent.com/94154683/189404321-ba33c32e-c1f1-4957-b428-8632d2011110.jpeg)
+### Performing 8 Bit SUBTRACTION
 ![mc22](https://user-images.githubusercontent.com/94154683/189404348-a83d7059-677b-45a1-93c4-b3670212817c.jpeg)
+### Moving to CH register
 ![mc23](https://user-images.githubusercontent.com/94154683/189404378-59916647-d716-41d4-bf06-f80dc549b8af.jpeg)
+### Resetting AH,BH register and Execution
 ![mc24](https://user-images.githubusercontent.com/94154683/189404416-4eec04b7-095d-44a0-af0c-08d0d09dea95.jpeg)
+### Flags:
 ![mcc](https://user-images.githubusercontent.com/94154683/189404757-b2c0bfed-23ec-4894-9c25-479445c9d934.jpeg)
 
 
@@ -107,11 +112,15 @@ MOV BX,0h;
 HLT;
 ```
 ## Output  
-
+### AX and BX registers for MULTIPLICATION
 ![mc31](https://user-images.githubusercontent.com/94154683/189404593-82040e4d-d826-4537-9631-c3c18c0d0a65.jpeg)
+### Performing 8 Bit MULTIPLICATION
 ![mc32](https://user-images.githubusercontent.com/94154683/189404609-69996427-b408-4320-a122-157945cebfa1.jpeg)
+### Moving to CX register
 ![mc33](https://user-images.githubusercontent.com/94154683/189404631-2577e6c0-a5ff-44ec-a2cd-4d0f24adc13f.jpeg)
+### Resetting AX,BX register and Execution
 ![mc34](https://user-images.githubusercontent.com/94154683/189404659-e5e8c1fc-9223-4084-808a-0e8b4f61c956.jpeg)
+### Flags:
 ![mcc](https://user-images.githubusercontent.com/94154683/189404757-b2c0bfed-23ec-4894-9c25-479445c9d934.jpeg)
 
 
@@ -129,14 +138,16 @@ MOV BX,0h;
 HLT;
 ```
 ## Output  
-
+### AX and BX registers for DIVISION
 ![mc41](https://user-images.githubusercontent.com/94154683/189405086-57e7e388-3b1c-4b08-9868-3d6533b19f5c.jpeg)
+### Performing 8 Bit DIVISION
 ![mc42](https://user-images.githubusercontent.com/94154683/189405115-fb26c155-fc90-4578-8733-56c3c6818a8d.jpeg)
+### Moving to CX register
 ![mc43](https://user-images.githubusercontent.com/94154683/189405131-c25a35d2-a788-4c2b-b3f2-af681bab8883.jpeg)
+### Resetting AX,BX register and Execution
 ![mc44](https://user-images.githubusercontent.com/94154683/189405141-e296f15d-0e5c-4354-8bcd-987c033ab316.jpeg)
+### Flags:
 ![mcc](https://user-images.githubusercontent.com/94154683/189404757-b2c0bfed-23ec-4894-9c25-479445c9d934.jpeg)
-
-
 
 ## Result :
 Thus a program on ALP for the fundamental arithmetic and logical operations is done successful.
